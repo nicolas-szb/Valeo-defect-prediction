@@ -17,7 +17,7 @@ This app predicts the defects on the Valeo production line!
 st.sidebar.header('User Input Features')
 
 st.sidebar.markdown("""
-[Example CSV input file](https://raw.githubusercontent.com/dataprofessor/data/master/penguins_example.csv)
+[Example CSV input file](https://raw.githubusercontent.com/nicolas-szb/Valeo-defect-prediction/main/data/defect_examples.csv)
 """)
 
 # Collects user input features into dataframe
