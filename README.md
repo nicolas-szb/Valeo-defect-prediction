@@ -10,4 +10,4 @@ In this repo, you can find:
 - data file: You can find data and a prediction I submitted for the challenge, and an example to submit to the application.
 
 You can run the Streamlit Application with the command `streamlit run app_predict_defect.py`.
-This application is alose deployed with Heroku : https://predict-defect-valeo-challenge.herokuapp.com/
+This application is also deployed with Heroku : https://predict-defect-valeo-challenge.herokuapp.com/
