@@ -3,10 +3,18 @@ import pickle
 import streamlit as st
 import pandas as pd
 import numpy as np
+#import joblib
+import sklearn
+import xgboost
+
 
 # Load the Model and Preprocess from file
-with open('model.pkl', 'rb') as file:
-    model = pickle.load(file)
+#with open('model.pkl', 'rb') as file:
+#    model = pickle.load(file)
+
+MODEL_FILE_PATH = 'model.pkl'
+
+model = pickle.load(open(MODEL_FILE_PATH, 'rb'))
 
 # Display sidebar
 st.write("""
