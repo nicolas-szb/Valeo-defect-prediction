@@ -8,6 +8,9 @@ In this repo, you can find:
 - app_predict_defect.py: A web application using Streamlit,
 - model.pkl: My model saved as pickle file,
 - data file: You can find data and a prediction I submitted for the challenge, and an example to submit to the application.
+- setup.sh: for Heroku
+- requirements.txt: for Heroku
+- Procfile: for Heroku
 
 You can run the Streamlit Application with the command `streamlit run app_predict_defect.py`.
 This application is also deployed with Heroku : https://predict-defect-valeo-challenge.herokuapp.com/
